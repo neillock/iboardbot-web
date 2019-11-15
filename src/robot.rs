@@ -179,7 +179,8 @@ impl<'a> Sketch<'a> {
 
         // First, erase the entire board.
         if erase {
-            self.erase_all();
+            info!("Ignoring erase command...");
+            //self.erase_all();
         } else {
             // If we used the eraser, we're already at `(0, 0)` coordinates.
             self.add_command(Command::PenLift);

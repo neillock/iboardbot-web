@@ -490,10 +490,10 @@ fn main_active(config: Config, headless_mode: bool) {
 
     // Check for presence of relevant paths
     let device_path = Path::new(&config.device);
-    if !device_path.exists() {
-        error!("Device {} does not exist", &config.device);
-        abort(2);
-    }
+    //if !device_path.exists() {
+    //    error!("Device {} does not exist", &config.device);
+    //    abort(2);
+    //}
     let static_dir_path = Path::new(&config.static_dir);
     if !static_dir_path.exists() || !static_dir_path.is_dir() {
         error!("Static files dir does not exist");
