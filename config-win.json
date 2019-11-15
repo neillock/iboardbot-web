@@ -1,0 +1,11 @@
+{
+    "listen": "127.0.0.1:8080",
+    "device": "COM8",
+    "svg_dir": "C:/Users/ellistr/Desktop/DeepPens/serial-version/iboardbot-web/images",
+    "static_dir": "C:/Users/ellistr/Desktop/DeepPens/serial-version/iboardbot-web/static",
+    "interval_seconds": 900,
+    "time_limits": {
+        "start_time": [6, 0],
+        "end_time": [0, 30]
+    }
+}
