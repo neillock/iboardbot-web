@@ -1,6 +1,5 @@
 target/
 *.swp
-config.json
 svg/
 node_modules
 config.json~
